@@ -1,0 +1,8 @@
+D:\Software\Books\ClassLibrary.Mappers\bin\Debug\netcoreapp3.1\ClassLibrary.Mapper.deps.json
+D:\Software\Books\ClassLibrary.Mappers\bin\Debug\netcoreapp3.1\ClassLibrary.Mapper.dll
+D:\Software\Books\ClassLibrary.Mappers\bin\Debug\netcoreapp3.1\ClassLibrary.Mapper.pdb
+D:\Software\Books\ClassLibrary.Mappers\obj\Debug\netcoreapp3.1\ClassLibrary.Mapper.AssemblyInfoInputs.cache
+D:\Software\Books\ClassLibrary.Mappers\obj\Debug\netcoreapp3.1\ClassLibrary.Mapper.AssemblyInfo.cs
+D:\Software\Books\ClassLibrary.Mappers\obj\Debug\netcoreapp3.1\ClassLibrary.Mapper.csproj.CoreCompileInputs.cache
+D:\Software\Books\ClassLibrary.Mappers\obj\Debug\netcoreapp3.1\ClassLibrary.Mapper.dll
+D:\Software\Books\ClassLibrary.Mappers\obj\Debug\netcoreapp3.1\ClassLibrary.Mapper.pdb

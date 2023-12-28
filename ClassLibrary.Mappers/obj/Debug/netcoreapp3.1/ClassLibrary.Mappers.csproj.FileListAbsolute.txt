@@ -1,0 +1,16 @@
+D:\Software\Books\ClassLibrary.Mappers\bin\Debug\netcoreapp3.1\ClassLibrary.Mappers.deps.json
+D:\Software\Books\ClassLibrary.Mappers\bin\Debug\netcoreapp3.1\ClassLibrary.Mappers.dll
+D:\Software\Books\ClassLibrary.Mappers\bin\Debug\netcoreapp3.1\ClassLibrary.Mappers.pdb
+D:\Software\Books\ClassLibrary.Mappers\bin\Debug\netcoreapp3.1\ClassLibrary.DTOs.dll
+D:\Software\Books\ClassLibrary.Mappers\bin\Debug\netcoreapp3.1\ClassLibrary.Interface.dll
+D:\Software\Books\ClassLibrary.Mappers\bin\Debug\netcoreapp3.1\ClassLibrary.Model.dll
+D:\Software\Books\ClassLibrary.Mappers\bin\Debug\netcoreapp3.1\ClassLibrary.Interface.pdb
+D:\Software\Books\ClassLibrary.Mappers\bin\Debug\netcoreapp3.1\ClassLibrary.DTOs.pdb
+D:\Software\Books\ClassLibrary.Mappers\bin\Debug\netcoreapp3.1\ClassLibrary.Model.pdb
+D:\Software\Books\ClassLibrary.Mappers\obj\Debug\netcoreapp3.1\ClassLibrary.Mappers.csproj.AssemblyReference.cache
+D:\Software\Books\ClassLibrary.Mappers\obj\Debug\netcoreapp3.1\ClassLibrary.Mappers.AssemblyInfoInputs.cache
+D:\Software\Books\ClassLibrary.Mappers\obj\Debug\netcoreapp3.1\ClassLibrary.Mappers.AssemblyInfo.cs
+D:\Software\Books\ClassLibrary.Mappers\obj\Debug\netcoreapp3.1\ClassLibrary.Mappers.csproj.CoreCompileInputs.cache
+D:\Software\Books\ClassLibrary.Mappers\obj\Debug\netcoreapp3.1\ClassLibrary.Mappers.csproj.CopyComplete
+D:\Software\Books\ClassLibrary.Mappers\obj\Debug\netcoreapp3.1\ClassLibrary.Mappers.dll
+D:\Software\Books\ClassLibrary.Mappers\obj\Debug\netcoreapp3.1\ClassLibrary.Mappers.pdb

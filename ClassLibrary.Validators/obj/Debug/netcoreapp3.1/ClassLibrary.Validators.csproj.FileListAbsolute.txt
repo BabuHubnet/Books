@@ -1,0 +1,16 @@
+D:\Software\Books\ClassLibrary.Validators\bin\Debug\netcoreapp3.1\ClassLibrary.Validators.deps.json
+D:\Software\Books\ClassLibrary.Validators\bin\Debug\netcoreapp3.1\ClassLibrary.Validators.dll
+D:\Software\Books\ClassLibrary.Validators\bin\Debug\netcoreapp3.1\ClassLibrary.Validators.pdb
+D:\Software\Books\ClassLibrary.Validators\obj\Debug\netcoreapp3.1\ClassLibrary.Validators.AssemblyInfoInputs.cache
+D:\Software\Books\ClassLibrary.Validators\obj\Debug\netcoreapp3.1\ClassLibrary.Validators.AssemblyInfo.cs
+D:\Software\Books\ClassLibrary.Validators\obj\Debug\netcoreapp3.1\ClassLibrary.Validators.csproj.CoreCompileInputs.cache
+D:\Software\Books\ClassLibrary.Validators\obj\Debug\netcoreapp3.1\ClassLibrary.Validators.dll
+D:\Software\Books\ClassLibrary.Validators\obj\Debug\netcoreapp3.1\ClassLibrary.Validators.pdb
+D:\Software\Books\ClassLibrary.Validators\obj\Debug\netcoreapp3.1\ClassLibrary.Validators.csproj.AssemblyReference.cache
+D:\Software\Books\ClassLibrary.Validators\bin\Debug\netcoreapp3.1\ClassLibrary.DTOs.dll
+D:\Software\Books\ClassLibrary.Validators\bin\Debug\netcoreapp3.1\ClassLibrary.Interface.dll
+D:\Software\Books\ClassLibrary.Validators\bin\Debug\netcoreapp3.1\ClassLibrary.Model.dll
+D:\Software\Books\ClassLibrary.Validators\bin\Debug\netcoreapp3.1\ClassLibrary.Interface.pdb
+D:\Software\Books\ClassLibrary.Validators\bin\Debug\netcoreapp3.1\ClassLibrary.DTOs.pdb
+D:\Software\Books\ClassLibrary.Validators\bin\Debug\netcoreapp3.1\ClassLibrary.Model.pdb
+D:\Software\Books\ClassLibrary.Validators\obj\Debug\netcoreapp3.1\ClassLibrary.Validators.csproj.CopyComplete

@@ -1,0 +1,18 @@
+C:\Users\rajch\Desktop\Test Code\WebApplicationAPI\ClassLibrary.Model\bin\Debug\netstandard2.0\ClassLibrary.Model.deps.json
+C:\Users\rajch\Desktop\Test Code\WebApplicationAPI\ClassLibrary.Model\bin\Debug\netstandard2.0\ClassLibrary.Model.dll
+C:\Users\rajch\Desktop\Test Code\WebApplicationAPI\ClassLibrary.Model\bin\Debug\netstandard2.0\ClassLibrary.Model.pdb
+C:\Users\rajch\Desktop\Test Code\WebApplicationAPI\ClassLibrary.Model\obj\Debug\netstandard2.0\ClassLibrary.Model.csprojAssemblyReference.cache
+C:\Users\rajch\Desktop\Test Code\WebApplicationAPI\ClassLibrary.Model\obj\Debug\netstandard2.0\ClassLibrary.Model.AssemblyInfoInputs.cache
+C:\Users\rajch\Desktop\Test Code\WebApplicationAPI\ClassLibrary.Model\obj\Debug\netstandard2.0\ClassLibrary.Model.AssemblyInfo.cs
+C:\Users\rajch\Desktop\Test Code\WebApplicationAPI\ClassLibrary.Model\obj\Debug\netstandard2.0\ClassLibrary.Model.csproj.CoreCompileInputs.cache
+C:\Users\rajch\Desktop\Test Code\WebApplicationAPI\ClassLibrary.Model\obj\Debug\netstandard2.0\ClassLibrary.Model.dll
+C:\Users\rajch\Desktop\Test Code\WebApplicationAPI\ClassLibrary.Model\obj\Debug\netstandard2.0\ClassLibrary.Model.pdb
+D:\Software\Books\ClassLibrary.Model\bin\Debug\netstandard2.0\ClassLibrary.Model.deps.json
+D:\Software\Books\ClassLibrary.Model\bin\Debug\netstandard2.0\ClassLibrary.Model.dll
+D:\Software\Books\ClassLibrary.Model\bin\Debug\netstandard2.0\ClassLibrary.Model.pdb
+D:\Software\Books\ClassLibrary.Model\obj\Debug\netstandard2.0\ClassLibrary.Model.csproj.AssemblyReference.cache
+D:\Software\Books\ClassLibrary.Model\obj\Debug\netstandard2.0\ClassLibrary.Model.AssemblyInfoInputs.cache
+D:\Software\Books\ClassLibrary.Model\obj\Debug\netstandard2.0\ClassLibrary.Model.AssemblyInfo.cs
+D:\Software\Books\ClassLibrary.Model\obj\Debug\netstandard2.0\ClassLibrary.Model.csproj.CoreCompileInputs.cache
+D:\Software\Books\ClassLibrary.Model\obj\Debug\netstandard2.0\ClassLibrary.Model.dll
+D:\Software\Books\ClassLibrary.Model\obj\Debug\netstandard2.0\ClassLibrary.Model.pdb

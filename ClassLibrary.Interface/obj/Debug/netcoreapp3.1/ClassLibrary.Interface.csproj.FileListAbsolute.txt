@@ -1,0 +1,14 @@
+D:\Software\Books\ClassLibrary.Interface\bin\Debug\netcoreapp3.1\ClassLibrary.Interface.deps.json
+D:\Software\Books\ClassLibrary.Interface\bin\Debug\netcoreapp3.1\ClassLibrary.Interface.dll
+D:\Software\Books\ClassLibrary.Interface\bin\Debug\netcoreapp3.1\ClassLibrary.Interface.pdb
+D:\Software\Books\ClassLibrary.Interface\bin\Debug\netcoreapp3.1\ClassLibrary.Model.dll
+D:\Software\Books\ClassLibrary.Interface\bin\Debug\netcoreapp3.1\ClassLibrary.Model.pdb
+D:\Software\Books\ClassLibrary.Interface\obj\Debug\netcoreapp3.1\ClassLibrary.Interface.csproj.AssemblyReference.cache
+D:\Software\Books\ClassLibrary.Interface\obj\Debug\netcoreapp3.1\ClassLibrary.Interface.AssemblyInfoInputs.cache
+D:\Software\Books\ClassLibrary.Interface\obj\Debug\netcoreapp3.1\ClassLibrary.Interface.AssemblyInfo.cs
+D:\Software\Books\ClassLibrary.Interface\obj\Debug\netcoreapp3.1\ClassLibrary.Interface.csproj.CoreCompileInputs.cache
+D:\Software\Books\ClassLibrary.Interface\obj\Debug\netcoreapp3.1\ClassLibrary.Interface.csproj.CopyComplete
+D:\Software\Books\ClassLibrary.Interface\obj\Debug\netcoreapp3.1\ClassLibrary.Interface.dll
+D:\Software\Books\ClassLibrary.Interface\obj\Debug\netcoreapp3.1\ClassLibrary.Interface.pdb
+D:\Software\Books\ClassLibrary.Interface\bin\Debug\netcoreapp3.1\ClassLibrary.DTOs.dll
+D:\Software\Books\ClassLibrary.Interface\bin\Debug\netcoreapp3.1\ClassLibrary.DTOs.pdb

@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="NLog" Version="5.2.7" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary.DTOs\ClassLibrary.DTOs.csproj" />
+    <ProjectReference Include="..\ClassLibrary.Interface\ClassLibrary.Interface.csproj" />
+    <ProjectReference Include="..\ClassLibrary.Mappers\ClassLibrary.Mappers.csproj" />
+    <ProjectReference Include="..\ClassLibrary.Model\ClassLibrary.Model.csproj" />
+    <ProjectReference Include="..\ClassLibrary.Repositories\ClassLibrary.Repositories.csproj" />
+    <ProjectReference Include="..\ClassLibrary.Service\ClassLibrary.Services.csproj" />
+    <ProjectReference Include="..\ClassLibrary.Validators\ClassLibrary.Validators.csproj" />
+  </ItemGroup>
+
+
+</Project>

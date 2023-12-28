@@ -1,0 +1,4 @@
+D:\Software\Books\ClassLibrary.Interfaces\obj\Debug\netcoreapp3.1\ClassLibrary.Interfaces.csproj.AssemblyReference.cache
+D:\Software\Books\ClassLibrary.Interfaces\obj\Debug\netcoreapp3.1\ClassLibrary.Interfaces.AssemblyInfoInputs.cache
+D:\Software\Books\ClassLibrary.Interfaces\obj\Debug\netcoreapp3.1\ClassLibrary.Interfaces.AssemblyInfo.cs
+D:\Software\Books\ClassLibrary.Interfaces\obj\Debug\netcoreapp3.1\ClassLibrary.Interfaces.csproj.CoreCompileInputs.cache

@@ -1,0 +1,16 @@
+D:\Software\Books\ClassLibrary.Repositories\bin\Debug\netcoreapp3.1\ClassLibrary.Repositories.deps.json
+D:\Software\Books\ClassLibrary.Repositories\bin\Debug\netcoreapp3.1\ClassLibrary.Repositories.dll
+D:\Software\Books\ClassLibrary.Repositories\bin\Debug\netcoreapp3.1\ClassLibrary.Repositories.pdb
+D:\Software\Books\ClassLibrary.Repositories\obj\Debug\netcoreapp3.1\ClassLibrary.Repositories.AssemblyInfoInputs.cache
+D:\Software\Books\ClassLibrary.Repositories\obj\Debug\netcoreapp3.1\ClassLibrary.Repositories.AssemblyInfo.cs
+D:\Software\Books\ClassLibrary.Repositories\obj\Debug\netcoreapp3.1\ClassLibrary.Repositories.csproj.CoreCompileInputs.cache
+D:\Software\Books\ClassLibrary.Repositories\obj\Debug\netcoreapp3.1\ClassLibrary.Repositories.dll
+D:\Software\Books\ClassLibrary.Repositories\obj\Debug\netcoreapp3.1\ClassLibrary.Repositories.pdb
+D:\Software\Books\ClassLibrary.Repositories\bin\Debug\netcoreapp3.1\ClassLibrary.DTOs.dll
+D:\Software\Books\ClassLibrary.Repositories\bin\Debug\netcoreapp3.1\ClassLibrary.Interface.dll
+D:\Software\Books\ClassLibrary.Repositories\bin\Debug\netcoreapp3.1\ClassLibrary.Model.dll
+D:\Software\Books\ClassLibrary.Repositories\bin\Debug\netcoreapp3.1\ClassLibrary.Interface.pdb
+D:\Software\Books\ClassLibrary.Repositories\bin\Debug\netcoreapp3.1\ClassLibrary.DTOs.pdb
+D:\Software\Books\ClassLibrary.Repositories\bin\Debug\netcoreapp3.1\ClassLibrary.Model.pdb
+D:\Software\Books\ClassLibrary.Repositories\obj\Debug\netcoreapp3.1\ClassLibrary.Repositories.csproj.AssemblyReference.cache
+D:\Software\Books\ClassLibrary.Repositories\obj\Debug\netcoreapp3.1\ClassLibrary.Repositories.csproj.CopyComplete

@@ -1,0 +1,9 @@
+D:\Software\Books\ClassLibrary.Model\bin\Debug\netcoreapp3.1\ClassLibrary.Model.deps.json
+D:\Software\Books\ClassLibrary.Model\bin\Debug\netcoreapp3.1\ClassLibrary.Model.dll
+D:\Software\Books\ClassLibrary.Model\bin\Debug\netcoreapp3.1\ClassLibrary.Model.pdb
+D:\Software\Books\ClassLibrary.Model\obj\Debug\netcoreapp3.1\ClassLibrary.Model.AssemblyInfoInputs.cache
+D:\Software\Books\ClassLibrary.Model\obj\Debug\netcoreapp3.1\ClassLibrary.Model.AssemblyInfo.cs
+D:\Software\Books\ClassLibrary.Model\obj\Debug\netcoreapp3.1\ClassLibrary.Model.csproj.CoreCompileInputs.cache
+D:\Software\Books\ClassLibrary.Model\obj\Debug\netcoreapp3.1\ClassLibrary.Model.dll
+D:\Software\Books\ClassLibrary.Model\obj\Debug\netcoreapp3.1\ClassLibrary.Model.pdb
+D:\Software\Books\ClassLibrary.Model\obj\Debug\netcoreapp3.1\ClassLibrary.Model.csproj.AssemblyReference.cache

@@ -1,0 +1,9 @@
+D:\Software\Books\ClassLibrary.DTOs\bin\Debug\netcoreapp3.1\ClassLibrary.DTOs.deps.json
+D:\Software\Books\ClassLibrary.DTOs\bin\Debug\netcoreapp3.1\ClassLibrary.DTOs.dll
+D:\Software\Books\ClassLibrary.DTOs\bin\Debug\netcoreapp3.1\ClassLibrary.DTOs.pdb
+D:\Software\Books\ClassLibrary.DTOs\obj\Debug\netcoreapp3.1\ClassLibrary.DTOs.AssemblyInfoInputs.cache
+D:\Software\Books\ClassLibrary.DTOs\obj\Debug\netcoreapp3.1\ClassLibrary.DTOs.AssemblyInfo.cs
+D:\Software\Books\ClassLibrary.DTOs\obj\Debug\netcoreapp3.1\ClassLibrary.DTOs.csproj.CoreCompileInputs.cache
+D:\Software\Books\ClassLibrary.DTOs\obj\Debug\netcoreapp3.1\ClassLibrary.DTOs.dll
+D:\Software\Books\ClassLibrary.DTOs\obj\Debug\netcoreapp3.1\ClassLibrary.DTOs.pdb
+D:\Software\Books\ClassLibrary.DTOs\obj\Debug\netcoreapp3.1\ClassLibrary.DTOs.csproj.AssemblyReference.cache
