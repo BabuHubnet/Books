@@ -22,7 +22,7 @@ or download and extract the repository .zip file.
 **Api : GET
 /Books/BookDetails**
 
-    **Output :**
+**Output :**
     [
         {
             "Publisher": "Knopf",
@@ -57,7 +57,7 @@ or download and extract the repository .zip file.
 **Api : GET
 /Books/PublisherDetails**
 
-    **Output :**
+**Output :**
     [
         {
             "Publisher": "Knopf",
@@ -82,7 +82,7 @@ or download and extract the repository .zip file.
 **Api : GET
 /Books/TotalPrice**
 
-    **Output :** 
+**Output :** 
     {
       "totalPrice": "610.3"
     }
@@ -90,7 +90,7 @@ or download and extract the repository .zip file.
 **Api : POST
 /Books/SaveBookDetails**
 
-    **Input :**
+**Input :**
     [
       {
         "publisher": "string",
