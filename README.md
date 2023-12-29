@@ -4,6 +4,17 @@ Overview
 
     The application is implemented as Net Core 3.1 and Dapper for data access.
 
+    This solution includes below projects. The **Books.Api** main project.
+    1>------ Project: Core.Test
+    2>------ Project: Books.Api
+    3>------ Project: ClassLibrary.Validators
+    4>------ Project: ClassLibrary.Services
+    5>------ Project: ClassLibrary.Repositories
+    6>------ Project: ClassLibrary.Mappers
+    7>------ Project: ClassLibrary.Interface
+    8>------ Project: ClassLibrary.DTOs
+    9>------ Project: ClassLibrary.Model
+
 **How To Run This Sample**
 
 To run this sample, you'll need:
