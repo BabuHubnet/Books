@@ -34,19 +34,49 @@
     }
 ]
 
-GET
-/Books/PublisherDetails
+**GET
+/Books/PublisherDetails**
 
-GET
-/Books/AuthorDetails
+[
+    {
+        "Publisher": "Knopf",
+        "AuthorLastName": "Hughes",
+        "AuthorFirstName": "Langston",
+        "Title": "Aunt Sue's Strories"
+    }
+]
 
-GET
-/Books/TotalPrice
+**GET
+/Books/AuthorDetails**
+
+[
+    {
+        "AuthorLastName": "Hughes",
+        "AuthorFirstName": "Langston",
+        "Title": "Aunt Sue's Strories"
+    }
+]
+
+**GET
+/Books/TotalPrice**
 
 Output : 
 {
   "totalPrice": "610.3"
 }
 
-POST
-/Books/SaveBookDetails
+**POST
+/Books/SaveBookDetails**
+
+Input:
+[
+  {
+    "publisher": "string",
+    "authorFirstName": "string",
+    "authorLastName": "string",
+    "title": "string",
+    "publicationDate": "2023-12-29T06:28:00.746Z",
+    "price": 0
+  }
+]
+
