@@ -11,6 +11,9 @@ GET
 
 GET
 /Books/TotalPrice
+{
+  "totalPrice": "610.3"
+}
 
 POST
 /Books/SaveBookDetails
