@@ -34,7 +34,7 @@
     }
 ]
 
-**GET
+**Api : GET
 /Books/PublisherDetails**
 
 [
@@ -46,7 +46,7 @@
     }
 ]
 
-**GET
+**Api : GET
 /Books/AuthorDetails**
 
 [
@@ -57,7 +57,7 @@
     }
 ]
 
-**GET
+**Api : GET
 /Books/TotalPrice**
 
 Output : 
@@ -65,10 +65,10 @@ Output :
   "totalPrice": "610.3"
 }
 
-**POST
+**Api : POST
 /Books/SaveBookDetails**
 
-Input:
+Input :
 [
   {
     "publisher": "string",
