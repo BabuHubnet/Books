@@ -21,7 +21,7 @@ or download and extract the repository .zip file.
 
 **Step 2: Run the DB Script**
 
-You get the folder [DBChanges] from the clone repository:
+You will get the [DBCchanges] folder from the cloned repository:
     
     1_CreateBooks_Table.sql
     2_CreateBooks_Index.sql
@@ -36,7 +36,13 @@ You get the folder [DBChanges] from the clone repository:
     
 Run this file in your sql server.
 
-**Step 2: Run the sample**
+**Step 3: Create Environment Variable in your machine**
+
+Create Environment Variable name "BookStore" for DB connection.
+
+    Data Source=DESKTOP-QOE4XXX\SQLEXPRESS;Initial Catalog=XXX;User ID=XXX;password=XXXXX
+
+**Step 4: Run the sample**
 Clean the solution, rebuild the solution, and run it.
 
 Once you run the Books.Api web application, you are presented with the standard swagger/index.html page. 
