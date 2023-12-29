@@ -43,6 +43,7 @@ namespace ClassLibrary.Services
         }
         public async Task<bool> SaveBookDetailsAsync(IEnumerable<BookInputDTO> UpdateBookDetailsRequest)
         {
+            await _validator.ValidateBookInput(UpdateBookDetailsRequest);
             var bookModel = MapBookDetailsDTOtoEntity(UpdateBookDetailsRequest);
             var authorLites = await _booksRepository.SaveBookDetailsAsync(bookModel);
             return authorLites;
