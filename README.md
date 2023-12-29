@@ -15,7 +15,7 @@ To run this sample, you'll need:
 
 From your shell or command line:
     
-    git clone [https://github.com/BabuHubnet/Books.git]
+    git clone https://github.com/BabuHubnet/Books.git
     
 or download and extract the repository .zip file.
 
@@ -41,6 +41,9 @@ Run this file in your sql server.
 Create Environment Variable name "BookStore" for DB connection.
 
     Data Source=DESKTOP-QOE4XXX\SQLEXPRESS;Initial Catalog=XXX;User ID=XXX;password=XXXXX
+
+    ![image](https://github.com/BabuHubnet/Books/assets/155096831/a66d442a-8fb9-485e-af8b-90c03d2f8a09)
+
 
 **Step 4: Run the sample**
 
