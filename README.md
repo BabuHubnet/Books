@@ -11,6 +11,8 @@ GET
 
 GET
 /Books/TotalPrice
+
+Output : 
 {
   "totalPrice": "610.3"
 }
