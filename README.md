@@ -1,7 +1,7 @@
 # Books
 
-GET
-/Books/BookDetails
+**GET
+/Books/BookDetails**
 
 [
     {
