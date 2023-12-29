@@ -1,4 +1,8 @@
 # Books
+About this sample
+Overview
+The application is implemented as Net Core 3.1 project.
+
 
 **Api : GET
 /Books/BookDetails**
