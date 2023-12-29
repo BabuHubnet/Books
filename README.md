@@ -1,7 +1,7 @@
 # Books
 About this sample
 Overview
-This sample showcases how to develop a web application that handles sign using the Microsoft identity platform. It shows you how to use the new unified signing-in model that can be used to sign-in users to the app with both their work/school account (Azure AD account) or Microsoft account (MSA). The application is implemented as an ASP.NET MVC project, while the web sign-on functionality is implemented via ASP.NET OpenId Connect OWIN middleware.
+The application is implemented as an Net Core 3.1 project.
 
 
 **Api : GET
