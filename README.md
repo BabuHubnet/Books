@@ -2,9 +2,9 @@
 About this sample
 Overview
 
-    The application is implemented as Net Core 3.1 and Dapper for data access.
+The application is implemented as Net Core 3.1 and Dapper for data access.
 
-    This solution includes below projects. The **Books.Api** main project.
+    This solution includes below projects. The Books.Api main project.
     1>------ Project: Core.Test
     2>------ Project: Books.Api
     3>------ Project: ClassLibrary.Validators
