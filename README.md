@@ -42,7 +42,7 @@ Create Environment Variable name "BookStore" for DB connection.
 
     Data Source=DESKTOP-QOE4XXX\SQLEXPRESS;Initial Catalog=XXX;User ID=XXX;password=XXXXX
 
-    ![image](https://github.com/BabuHubnet/Books/assets/155096831/a66d442a-8fb9-485e-af8b-90c03d2f8a09)
+  ![image](https://github.com/BabuHubnet/Books/assets/155096831/35b3f522-e27c-4af6-a229-7b28bec70a3b)
 
 
 **Step 4: Run the sample**
