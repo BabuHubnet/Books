@@ -19,6 +19,28 @@ From your shell or command line:
     
 or download and extract the repository .zip file.
 
+**Step 2: Run the DB Script**
+
+You get the folder [DBChanges] from the clone repository:
+    
+    1_CreateBooks_Table.sql
+    2_CreateBooks_Index.sql
+    3_CreateBooksContents_Table.sql
+    4_CreateBooksContents_Index.sql
+    5_Insert_Books.sql
+    6_Insert_Contents.sql
+    7_SpGetBooks.sql
+    8_SpGetPublisher.sql
+    9_SpGetBooksContents.sql
+    10_SpGetAuthor.sql
+    
+Run this file in your sql server.
+
+**Step 2: Run the sample**
+Clean the solution, rebuild the solution, and run it.
+
+Once you run the Books.Api web application, you are presented with the standard swagger/index.html page. 
+
 **Api : GET
 /Books/BookDetails**
 
