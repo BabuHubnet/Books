@@ -43,9 +43,12 @@ Create Environment Variable name "BookStore" for DB connection.
     Data Source=DESKTOP-QOE4XXX\SQLEXPRESS;Initial Catalog=XXX;User ID=XXX;password=XXXXX
 
 **Step 4: Run the sample**
+
 Clean the solution, rebuild the solution, and run it.
 
 Once you run the Books.Api web application, you are presented with the standard swagger/index.html page. 
+
+![image](https://github.com/BabuHubnet/Books/assets/155096831/0f2e1f71-5ec7-4ff7-a411-37ae6f325ecf)
 
 **Api : GET
 /Books/BookDetails**
