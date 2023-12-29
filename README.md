@@ -3,6 +3,7 @@
 **Api : GET
 /Books/BookDetails**
 
+**Output :**
 [
     {
         "Publisher": "Knopf",
@@ -37,6 +38,7 @@
 **Api : GET
 /Books/PublisherDetails**
 
+**Output :**
 [
     {
         "Publisher": "Knopf",
@@ -49,6 +51,7 @@
 **Api : GET
 /Books/AuthorDetails**
 
+**Output :**
 [
     {
         "AuthorLastName": "Hughes",
@@ -60,7 +63,7 @@
 **Api : GET
 /Books/TotalPrice**
 
-Output : 
+**Output :** 
 {
   "totalPrice": "610.3"
 }
@@ -68,7 +71,7 @@ Output :
 **Api : POST
 /Books/SaveBookDetails**
 
-Input :
+**Input :**
 [
   {
     "publisher": "string",
