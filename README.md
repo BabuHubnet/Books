@@ -6,7 +6,7 @@ The application is implemented as Net Core 3.1 and Dapper for data access.
 
     This solution includes below projects. The Books.Api main project.
     1>------ Project: Core.Test [Tests contain unit tests for all the functionalities implements]
-    2>------ Project: Books.Api [Api contains books details]
+    2>------ Project: Books.Api [Api is accessing and consuming data and services]
     3>------ Project: ClassLibrary.Validators [Validators help in validating the incoming DTOs]
     4>------ Project: ClassLibrary.Services [Services hold buisness logic]
     5>------ Project: ClassLibrary.Repositories [Repositories provide access to underlying storage]
