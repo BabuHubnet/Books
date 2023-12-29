@@ -40,6 +40,7 @@ Run this file in your sql server.
 
 Create Environment Variable name "BookStore" for DB connection.
 
+    Variable value :
     Data Source=DESKTOP-QOE4XXX\SQLEXPRESS;Initial Catalog=XXX;User ID=XXX;password=XXXXX
 
   ![image](https://github.com/BabuHubnet/Books/assets/155096831/35b3f522-e27c-4af6-a229-7b28bec70a3b)
