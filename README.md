@@ -1,20 +1,24 @@
 # Books
 About this sample
 Overview
-The application is implemented as Net Core 3.1 and Dapper for data access.
+
+    The application is implemented as Net Core 3.1 and Dapper for data access.
 
 **How To Run This Sample**
+
 To run this sample, you'll need:
-Visual Studio
-SQL Server
+
+    Visual Studio
+    
+    SQL Server
 
 **Step 1: Clone or download this repository**
 
-From your shell or command line:
-
-git clone [https://github.com/BabuHubnet/Books.git]
-
-or download and extract the repository .zip file.
+    From your shell or command line:
+    
+    git clone [https://github.com/BabuHubnet/Books.git]
+    
+    or download and extract the repository .zip file.
 
 **Api : GET
 /Books/BookDetails**
