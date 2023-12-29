@@ -21,7 +21,7 @@ or download and extract the repository .zip file.
 
 **Step 2: Run the DB Script**
 
-You will get the [DBCchanges] folder from the cloned repository:
+You will get the [DBChanges] folder from the cloned repository:
     
     1_CreateBooks_Table.sql
     2_CreateBooks_Index.sql
