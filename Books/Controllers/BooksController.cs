@@ -28,8 +28,8 @@ namespace Books.Controllers
             try
             {
                 var res = await _bookService.GetBookDetailsAsync();
-                var json = JsonConvert.SerializeObject(res, new LookupSerializer());
-                return Ok(json);
+                //var json = JsonConvert.SerializeObject(res, new LookupSerializer());
+                return Ok(res);
             }
             catch (Exception ex)
             {
@@ -47,8 +47,8 @@ namespace Books.Controllers
             try
             {
                 var res = await _bookService.GetPublisherDetailsAsync();
-                var json = JsonConvert.SerializeObject(res, new LookupSerializer());
-                return Ok(json);
+                //var json = JsonConvert.SerializeObject(res, new LookupSerializer());
+                return Ok(res);
             }
             catch (Exception ex)
             {
@@ -66,8 +66,8 @@ namespace Books.Controllers
             try
             {
                 var res = await _bookService.GetAuthorDetailsAsync();
-                var json = JsonConvert.SerializeObject(res, new LookupSerializer());
-                return Ok(json);
+                //var json = JsonConvert.SerializeObject(res, new LookupSerializer());
+                return Ok(res);
             }
             catch (Exception ex)
             {

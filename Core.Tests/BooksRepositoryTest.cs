@@ -1,9 +1,9 @@
 using ClassLibrary.Repositories;
-using NUnit.Framework;
+using Core.Test;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Core.Test
+namespace Core.Tests
 {
     public class BooksRepositoryTest
     {

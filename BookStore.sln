@@ -21,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary.Validators", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{ACE95349-3A96-4233-A073-742DCA356EF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Test", "Core.Test\Core.Test.csproj", "{EFA04A85-4A96-4707-BC68-450ED8FE0C42}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Tests", "Core.Tests\Core.Tests.csproj", "{C862886E-BD14-4FAB-AD52-155B1BE617B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,16 +61,16 @@ Global
 		{EF10B631-1361-4020-AAB0-D224E029CBA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF10B631-1361-4020-AAB0-D224E029CBA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF10B631-1361-4020-AAB0-D224E029CBA3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EFA04A85-4A96-4707-BC68-450ED8FE0C42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EFA04A85-4A96-4707-BC68-450ED8FE0C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EFA04A85-4A96-4707-BC68-450ED8FE0C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EFA04A85-4A96-4707-BC68-450ED8FE0C42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C862886E-BD14-4FAB-AD52-155B1BE617B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C862886E-BD14-4FAB-AD52-155B1BE617B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C862886E-BD14-4FAB-AD52-155B1BE617B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C862886E-BD14-4FAB-AD52-155B1BE617B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{EFA04A85-4A96-4707-BC68-450ED8FE0C42} = {ACE95349-3A96-4233-A073-742DCA356EF2}
+		{C862886E-BD14-4FAB-AD52-155B1BE617B7} = {ACE95349-3A96-4233-A073-742DCA356EF2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DEDE4DD2-9BA2-456C-B334-027900445FB8}
