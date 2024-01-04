@@ -42,11 +42,11 @@ namespace Books.Controllers
 
         [HttpGet]
         [Route("PublisherDetails")]
-        public async Task<IActionResult> GetPublisherDetailsAsync()
+        public async Task<IActionResult> GetPublisherDetailsAsync(string sortColumn, string sortOrder)
         {
             try
             {
-                var res = await _bookService.GetPublisherDetailsAsync();
+                var res = await _bookService.GetPublisherDetailsAsync(sortColumn, sortOrder);
                 //var json = JsonConvert.SerializeObject(res, new LookupSerializer());
                 return Ok(res);
             }
@@ -60,13 +60,50 @@ namespace Books.Controllers
         }
 
         [HttpGet]
-        [Route("AuthorDetails")]
-        public async Task<IActionResult> GetAuthorDetailsAsync()
+        [Route("PublisherLQDetails")]
+        public async Task<IActionResult> GetPublisherDetailsLQAsync(string sortColumn, string sortOrder)
         {
             try
             {
-                var res = await _bookService.GetAuthorDetailsAsync();
+                var res = await _bookService.GetPublisherDetailsLQAsync(sortColumn, sortOrder); 
+                return Ok(res);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new
+                {
+                    error = ex.Message
+                });
+            }
+        }
+        
+
+        [HttpGet]
+        [Route("AuthorDetails")]
+        public async Task<IActionResult> GetAuthorDetailsAsync(string sortColumn, string sortOrder)
+        {
+            try
+            {
+                var res = await _bookService.GetAuthorDetailsAsync(sortColumn, sortOrder);
                 //var json = JsonConvert.SerializeObject(res, new LookupSerializer());
+                return Ok(res);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new
+                {
+                    error = ex.Message
+                });
+            }
+        }
+
+        [HttpGet]
+        [Route("AuthorLQDetails")]
+        public async Task<IActionResult> GetAuthorDetailsLQAsync(string sortColumn, string sortOrder)
+        {
+            try
+            {
+                var res = await _bookService.GetAuthorDetailsLQAsync(sortColumn, sortOrder);
                 return Ok(res);
             }
             catch (Exception ex)

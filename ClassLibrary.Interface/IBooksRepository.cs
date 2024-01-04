@@ -7,9 +7,10 @@ namespace ClassLibrary.Interface
     public interface IBooksRepository
     {
         Task<IEnumerable<BookModel>> GetBookDetailsAsync();
-        Task<IEnumerable<PublisherModel>> GetPublisherDetailsAsync();
+        Task<IEnumerable<PublisherModel>> GetPublisherDetailsAsync(string sortColumn, string sortOrder);
+        Task<IEnumerable<PublisherModel>> GetBookDetailsLQAsync();
         Task<IEnumerable<BookContentsModel>> GetBookContentsAsync();
-        Task<IEnumerable<AuthorModel>> GetAuthorDetailsAsync();
+        Task<IEnumerable<AuthorModel>> GetAuthorDetailsAsync(string sortColumn, string sortOrder); 
         Task<bool> SaveBookDetailsAsync(IEnumerable<BookModel> UpdateBookDetailsRequest);
     }
 }

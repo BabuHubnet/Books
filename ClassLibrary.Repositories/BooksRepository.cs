@@ -25,14 +25,7 @@ namespace ClassLibrary.Repositories
             {
                 return await connection.QueryAsync<BookModel>("SpGetBooks", commandTimeout: _context.Timeout, commandType: CommandType.StoredProcedure);
             }
-        }
-        public async Task<IEnumerable<PublisherModel>> GetPublisherDetailsAsync()
-        {
-            using (var connection = new SqlConnection(_context.ConnectionString))
-            {
-                return await connection.QueryAsync<PublisherModel>("SpGetPublisher", commandTimeout: _context.Timeout, commandType: CommandType.StoredProcedure);
-            }
-        }
+        }       
         public async Task<IEnumerable<BookContentsModel>> GetBookContentsAsync()
         {
             using (var connection = new SqlConnection(_context.ConnectionString))
@@ -40,13 +33,39 @@ namespace ClassLibrary.Repositories
                 return await connection.QueryAsync<BookContentsModel>("SpGetBooksContents", commandTimeout: _context.Timeout, commandType: CommandType.StoredProcedure);
             }
         }
-        public async Task<IEnumerable<AuthorModel>> GetAuthorDetailsAsync()
+        public async Task<IEnumerable<PublisherModel>> GetPublisherDetailsAsync(string sortColumn, string sortOrder)
         {
             using (var connection = new SqlConnection(_context.ConnectionString))
             {
-                return await connection.QueryAsync<AuthorModel>("SpGetAuthor", commandTimeout: _context.Timeout, commandType: CommandType.StoredProcedure);
+                var parameters = new DynamicParameters();
+                parameters.Add("@sortColumn", sortColumn);
+                parameters.Add("@sortOrder", sortOrder);
+                return await connection.QueryAsync<PublisherModel>("SpGetPublisher", param: parameters, commandTimeout: _context.Timeout, commandType: CommandType.StoredProcedure);
             }
         }
+        public async Task<IEnumerable<PublisherModel>> GetBookDetailsLQAsync()
+        {
+            var sql = @"SELECT  
+                AuthorFirstName + ',' + AuthorLastName + '. \""' + Title + '\"". < i >' +  Publisher +', ' 
+	            + Convert(varchar,Year(PublicationDate)) + ',' + 'pp. ' + PageRange + '.' As MLA
+                FROM[dbo].[Books] b WITH(NOLOCK)
+                Inner join[dbo].[BooksContents] bc With(nolock) on bc.BookId = b.BookId
+                Group by b.BookId,Publisher,AuthorLastName,AuthorFirstName,Title,PublicationDate,PageRange,ContentTitle";
+            using (var connection = new SqlConnection(_context.ConnectionString))
+            {
+                return await connection.QueryAsync<PublisherModel>(sql, commandTimeout: _context.Timeout);
+            }
+        }
+        public async Task<IEnumerable<AuthorModel>> GetAuthorDetailsAsync(string sortColumn, string sortOrder)
+        {
+            using (var connection = new SqlConnection(_context.ConnectionString))
+            {
+                var parameters = new DynamicParameters();
+                parameters.Add("@sortColumn", sortColumn);
+                parameters.Add("@sortOrder", sortOrder);
+                return await connection.QueryAsync<AuthorModel>("SpGetAuthor", param: parameters, commandTimeout: _context.Timeout, commandType: CommandType.StoredProcedure);
+            }
+        }        
 
         public async Task<bool> SaveBookDetailsAsync(IEnumerable<BookModel> UpdateBookDetailsRequest)
         {

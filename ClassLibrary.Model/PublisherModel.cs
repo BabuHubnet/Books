@@ -1,7 +1,7 @@
 namespace ClassLibrary.Models
 {
-    public class PublisherModel : AuthorModel
+    public class PublisherModel 
     {
-        public string Publisher { get; set; } = default;
+        public string Values { get; set; } = default;
     }
 }

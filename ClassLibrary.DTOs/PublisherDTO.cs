@@ -1,7 +1,7 @@
 namespace ClassLibrary.DTOs
 {
-    public class PublisherDTO : AuthorDTO
+    public class PublisherDTO
     {
-        public string Publisher { get; set; } = default;
+        public string Values { get; set; } = default!;
     }
 }

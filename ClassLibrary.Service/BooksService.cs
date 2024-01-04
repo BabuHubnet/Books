@@ -27,19 +27,35 @@ namespace ClassLibrary.Services
             var bookContents = await _booksRepository.GetBookContentsAsync();
             return _booksMapper.MapBookListEntityToDTO(bookLites, bookContents);
         }
-        public async Task<IEnumerable<PublisherDTO>> GetPublisherListAsync()
+        public async Task<IEnumerable<PublisherDTO>> GetPublisherListAsync(string sortColumn, string sortOrder)
         {
             await _validator.ValidateAndGetBookListAsync();
 
-            var PublisherList = await _booksRepository.GetPublisherDetailsAsync();
+            var PublisherList = await _booksRepository.GetPublisherDetailsAsync(sortColumn, sortOrder);
             return _booksMapper.MapPublisherListEntityToDTO(PublisherList);
         }
-        public async Task<IEnumerable<AuthorDTO>> GetAuthorListAsync()
+        public async Task<IEnumerable<AuthorDTO>> GetAuthorListAsync(string sortColumn, string sortOrder)
         {
             await _validator.ValidateAndGetBookListAsync();
 
-            var authorLites = await _booksRepository.GetAuthorDetailsAsync();
+            var authorLites = await _booksRepository.GetAuthorDetailsAsync(sortColumn, sortOrder);
             return _booksMapper.MapAuthorListEntityToDTO(authorLites);
+        }
+        public async Task<IEnumerable<PublisherDTO>> GetPublisherDetailsLQAsync(string sortColumn, string sortOrder)
+        {
+            await _validator.ValidateAndGetBookListAsync();
+
+            var bookLites = await _booksRepository.GetBookDetailsAsync();
+            var bookContents = await _booksRepository.GetBookContentsAsync();
+            return _booksMapper.MapPublisherListLQEntityToDTO(bookLites, bookContents, sortColumn, sortOrder);
+        }
+        public async Task<IEnumerable<AuthorDTO>> GetAuthorDetailsLQAsync(string sortColumn, string sortOrder)
+        {
+            await _validator.ValidateAndGetBookListAsync();
+
+            var bookLites = await _booksRepository.GetBookDetailsAsync();
+            var bookContents = await _booksRepository.GetBookContentsAsync();
+            return _booksMapper.MapAuthorListLQEntityToDTO(bookLites, bookContents, sortColumn, sortOrder);
         }
         public async Task<bool> SaveBookDetailsAsync(IEnumerable<BookInputDTO> UpdateBookDetailsRequest)
         {

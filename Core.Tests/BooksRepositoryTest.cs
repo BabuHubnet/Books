@@ -24,7 +24,7 @@ namespace Core.Tests
         public async Task CanGetPublisherDetailsAsync()
         {
             var repository = Arrange();
-            var result = await repository.GetPublisherDetailsAsync();
+            var result = await repository.GetPublisherDetailsAsync("Publisher", "desc");
             Assert.NotNull(result);
         }
 
@@ -32,7 +32,7 @@ namespace Core.Tests
         public async Task CanGetAuthorListAsync()
         {
             var repository = Arrange();
-            var result = await repository.GetAuthorDetailsAsync();
+            var result = await repository.GetAuthorDetailsAsync("Author", "desc");
             Assert.NotNull(result);
         }
     }
