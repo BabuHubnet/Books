@@ -62,14 +62,14 @@ namespace ClassLibrary.Mappers
                 .Select(lists => new PublisherDTO
                 {
 
-                    Values = $"{lists.AuthorLastName} , {lists.AuthorFirstName} , \" { lists.Title } \" <i> { lists.ContentTitle },</i> {lists.Publisher},{lists.PublicationDate.ToString("yyyy") },pp. { lists.PageRange }. "
+                    Values = $"<p> {lists.AuthorLastName} , {lists.AuthorFirstName} , \" { lists.Title } \" <i> { lists.ContentTitle },</i> {lists.Publisher},{lists.PublicationDate.ToString("yyyy") },pp. { lists.PageRange }. </p>"
                 }
             ): query
                 .OrderBy(x => sortColumn?.ToLower() == "publisher" ? x.Publisher : sortColumn?.ToLower() == "author" ? x.AuthorLastName + "," + x.AuthorFirstName : sortColumn?.ToLower() == "title" ? x.Title : x.Publisher)
                 .Select(lists => new PublisherDTO
                 {
 
-                    Values = $"{lists.AuthorLastName} , {lists.AuthorFirstName} , \" { lists.Title } \" <i> { lists.ContentTitle },</i> {lists.Publisher},{lists.PublicationDate.ToString("yyyy") },pp. { lists.PageRange }. "
+                    Values = $"<p> {lists.AuthorLastName} , {lists.AuthorFirstName} , \" { lists.Title } \" <i> { lists.ContentTitle },</i> {lists.Publisher},{lists.PublicationDate.ToString("yyyy") },pp. { lists.PageRange }. </p>"
                 });
 
             return publisher;
@@ -88,14 +88,14 @@ namespace ClassLibrary.Mappers
                 .Select(lists => new AuthorDTO
                 {
 
-                    Values = $"{lists.AuthorLastName} , {lists.AuthorFirstName} , \" { lists.Title } \" <i> { lists.ContentTitle },</i> {lists.Publisher},{lists.PublicationDate.ToString("yyyy") },pp. { lists.PageRange }. "
+                    Values = $"<p> {lists.AuthorLastName} , {lists.AuthorFirstName} , \" { lists.Title } \" <i> { lists.ContentTitle },</i> {lists.Publisher},{lists.PublicationDate.ToString("yyyy") },pp. { lists.PageRange }. </p>"
                 }
             ) : query
                 .OrderBy(x => sortColumn?.ToLower() == "author" ? x.AuthorLastName + "," + x.AuthorFirstName : sortColumn?.ToLower() == "title" ? x.Title : x.Publisher)
                 .Select(lists => new AuthorDTO
                 {
 
-                    Values = $"{lists.AuthorLastName} , {lists.AuthorFirstName} , \" { lists.Title } \" <i> { lists.ContentTitle },</i> {lists.Publisher},{lists.PublicationDate.ToString("yyyy") },pp. { lists.PageRange }. "
+                    Values = $"<p> {lists.AuthorLastName} , {lists.AuthorFirstName} , \" { lists.Title } \" <i> { lists.ContentTitle },</i> {lists.Publisher},{lists.PublicationDate.ToString("yyyy") },pp. { lists.PageRange }. </p>"
                 });
 
             return author;
